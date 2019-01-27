@@ -1,0 +1,202 @@
+body {
+  color:#000000;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
+/*Everything in the top light blue header*/
+
+header {
+  background-color:#75e2e6;
+  height: 40px;
+  border-bottom: 2px solid #048eaa;
+  border-top: 2px solid #75e2e6;
+  margin: 0px;
+  padding: 10px;
+}
+
+img.nav {
+  display: inline;
+  float: left;
+  height: 40px;
+}
+
+li.nav {
+  display: inline;
+  font-size: 80%;
+  float: right;
+  margin-right: 20px;
+}
+
+
+/*Everything in the area with the park background*/
+
+section.naming-dog {
+  background-image: url(images/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  height: 420px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 30px;
+  font-weight: 400;
+}
+
+span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+img.naming-dog {
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #048eaa;
+  margin: 20px;
+}
+
+div.name-input {
+  text-align: center;
+  display: inline-block;
+  height: 100px;
+  width: 300px;	
+}
+
+input.name {
+  height: 30px;
+  width:300px;
+  border:0px;
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+}
+
+button.name-button {
+  background-color: #75e2e6;
+  text-align: center;
+  display: block;	
+  height: 32px;
+  width: 100%;
+  padding: 0px;
+}
+
+/*Apply below to the column area with a white background*/
+
+@media screen and (max-width: 1000000px) {
+
+section.main {
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: auto;
+  width: 100%;
+  margin: 30px auto 60px;
+  min-width: 400px;
+	
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  height: 150px;
+  padding: 10px;
+}
+
+button.main-button {
+  background-color: #048eaa;
+  color: #ffffff;
+  height: 35px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+div.column1 {
+  display: inline-block;
+  width: 320px;
+  margin: 20px auto;
+}
+
+div.column2 {
+  display: inline-block;
+  width: 320px;
+  margin: 20px 40px 20px 40px;
+}
+
+div.column3 {
+  display: inline-block;
+  height: 202.44px;
+  width: 320px;
+  margin: 20px auto;
+}
+
+img.coldog {
+  border-radius: 50%;
+  height: 150px;
+  border: 3px solid #048eaa;
+}
+
+}
+@media screen and (max-width: 800px){
+	div.column1 {
+		width: 100%;
+		margin:2px;
+	}
+
+	div.column2 {
+	  width: 100%;
+	  margin: 2px;
+	}
+
+	div.column3 {
+	  width: 100%;
+	  margin: 2px;
+	}
+
+	button.main-button{
+		height: 40px;
+		margin-top: 2px;
+	}
+
+	p{
+	  height: auto;
+	  padding: 5px;
+	  margin:5px 2px 10px 2px;
+	}
+}
+	
+/*Apply below to the footer area*/
+
+footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  text-align: center;
+  height: 130px;
+  padding-top: 20px;
+}
+
+h5 {
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+img.logo {
+  display: inline;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+img.logo-tweet {
+  display: inline;
+  height: 35px;
+  width: 35px;
+  margin: 5px;
+}
+
