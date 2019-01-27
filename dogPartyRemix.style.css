@@ -61,7 +61,7 @@ img.naming-dog {
 }
 
 div.name-input {
-  text-align: center;
+  text-align: left;
   display: inline-block;
   height: 100px;
   width: 300px;	
